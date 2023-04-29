@@ -1,13 +1,14 @@
 {
   "name": "nest_project_5",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "projeto usando nest-next",
+  "author": "matheus R",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "next:init": "next dev",
+    "next:build": "next build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "star": "nodemon",
     "start": "nest start",
