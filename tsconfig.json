@@ -8,8 +8,7 @@
     "allowSyntheticDefaultImports": true,
     "target": "es2017",
     "sourceMap": true,
-    "outDir": "./build",
-    "baseUrl": "./",
+    "outDir": "./next",
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
@@ -36,8 +35,11 @@
     "**/*.ts",
     "**/*.tsx",
     "/pages/**.jsx/**.tsx"
-  ],
+, "src/pages/index.jsx"  ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "ts-node": {
+    "esm": true
+  }
 }

@@ -3,6 +3,10 @@
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
   "entryFile": "server/main",
+  "monorepo": true,
+  "generateOptions": {
+    "flat": true
+  },
   "compilerOptions": {
     "deleteOutDir": true
   }

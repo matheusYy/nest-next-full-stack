@@ -8,11 +8,12 @@ import { resolve } from 'path';
   imports: [
     RenderModule.forRootAsync(
       Next({
-        dev: process.env.NODE_ENV !== 'production',
+        dev: process.env.NODE_ENV !== 'development',
         dir: resolve(__dirname, '..'),
       }),
       {
         viewsDir: null,
+        passthrough404: true,
       },
     ),
   ],
